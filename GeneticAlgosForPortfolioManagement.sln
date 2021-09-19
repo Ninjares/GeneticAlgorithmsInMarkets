@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneticAlgosForPortfolioManagement", "GeneticAlgosForPortfolioManagement\GeneticAlgosForPortfolioManagement.csproj", "{02A7CEE6-A6C8-4302-B932-243FF55947D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02A7CEE6-A6C8-4302-B932-243FF55947D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A7CEE6-A6C8-4302-B932-243FF55947D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A7CEE6-A6C8-4302-B932-243FF55947D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A7CEE6-A6C8-4302-B932-243FF55947D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782B6055-359D-4E87-965A-A64309981D6B}
+	EndGlobalSection
+EndGlobal
