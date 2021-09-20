@@ -25,7 +25,6 @@ namespace GeneticAlgosForPortfolioManagement
         public List<Gene> population;
         private int breedingPressure; //how much of the top population will be used for crosing
         private double MutationFactor;
-        private Markets markets;
         private int PopulationC;
 
         public GenomeRepo(int PopulationCount, double MutationFactor, int breedingPressure){
@@ -60,7 +59,7 @@ namespace GeneticAlgosForPortfolioManagement
             }
             for(int i=0; i<population.Count; i++)
             {
-                population[i].gene = MutateGene(population[i].gene, MutationFactor);
+                population[i].gene = MutateGene(population[i].gene);
             }
         }
 
@@ -85,11 +84,11 @@ namespace GeneticAlgosForPortfolioManagement
             return gene;
         }
 
-        private Genome[] MutateGene(Genome[] gene, double mutationFactor)
+        private Genome[] MutateGene(Genome[] gene)
         {
             for(int i=0; i<gene.Length; i++)
             {
-                if(rnd.Next(1, 100) <= mutationFactor)
+                if(rnd.Next(1, 1001) <= (int)(MutationFactor*10))
                 {
                     gene[i] = (Genome)rnd.Next(0, Enum.GetNames(typeof(Genome)).Length);
                 }
